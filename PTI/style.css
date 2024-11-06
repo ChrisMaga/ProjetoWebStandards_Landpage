@@ -28,48 +28,43 @@ h3 {
   font-weight: bold;
 }
 
-/*LOGOTIPO E REDES SOCIAIS*/
-.container-nav{
-    max-width: 100%;
-    padding: 0 50px;
-    margin: 0 auto;
-  }
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  } 
-  .container-nav .navbar .logo img{
-    display: block;
-    object-fit: cover;
-    width: 20vw;
-    max-width: 200px;
-    min-width: 80px;
-    margin-right: auto; /* Empurra os elementos seguintes para a direita */
-  }
- 
-  .navbar nav{
-    display: flex;
-    align-items: center;
-    padding: 1.5rem 0;
-    margin-left: auto;
-  }
-  .navbar nav li{
-    list-style: none;
-    margin-left: 1rem;
-  }
-  .navbar nav li a{
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0.7rem 0.6rem;
-    border-radius: 6px;
-    transition: all 0.4s ease-in;
-    color: #000000;
-  }
-  .navbar nav li a img {
-    width: 4vw; /* 4% da largura da viewport */
-    height: auto; /* Mantém a proporção */
-    max-width: 32px; /* Tamanho máximo em telas maiores */
+/*LOGOTIPO, REDES SOCIAIS E BANNER*/
+.header {
+  background-color: #ffffff; /* Cor de fundo do header */
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between; /* Logo à esquerda e ícones à direita */
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 150px; /* Tamanho da logo */
+  height: auto;
+}
+
+.social-icons a {
+  margin-left: 15px; /* Espaçamento entre os ícones */
+}
+
+.social-icons a img {
+  width: 24px; /* Tamanho dos ícones */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo do Banner */
+.banner img {
+  width: 100%; /* Ocupa a largura completa */
+  height: auto;
+  display: block;
+  margin-top: 10px; /* Espaçamento entre o banner e o header */
 }
 
 /*INFORMAÇÃO PRINCIPAL*/
