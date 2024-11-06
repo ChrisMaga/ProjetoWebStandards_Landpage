@@ -34,17 +34,20 @@ h3 {
     padding: 0 50px;
     margin: 0 auto;
   }
-  
-  .container-nav .navbar .logo img{
-    display: block;
-    object-fit: cover;
-    width: 20%;
-  }
   .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  } 
+  .container-nav .navbar .logo img{
+    display: block;
+    object-fit: cover;
+    width: 20vw;
+    max-width: 200px;
+    min-width: 80px;
+    margin-right: auto; /* Empurra os elementos seguintes para a direita */
   }
+ 
   .navbar nav{
     display: flex;
     align-items: center;
